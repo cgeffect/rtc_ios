@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import <WebRTC/RTCPeerConnection.h>
 
 @interface ViewController ()
 
@@ -16,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    RTCPeerConnection *peer = [RTCPeerConnection init];
+    
 }
 
 

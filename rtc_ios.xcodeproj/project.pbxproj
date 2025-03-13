@@ -14,6 +14,7 @@
 		96F6683C2D7D3EE300FB1101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F6683B2D7D3EE300FB1101 /* Assets.xcassets */; };
 		96F6683F2D7D3EE300FB1101 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 96F6683E2D7D3EE300FB1101 /* Base */; };
 		96F668422D7D3EE300FB1101 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F668412D7D3EE300FB1101 /* main.m */; };
+		96F668492D7D3F2B00FB1101 /* WebRTC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F668482D7D3F2B00FB1101 /* WebRTC.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		96F6683E2D7D3EE300FB1101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96F668402D7D3EE300FB1101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96F668412D7D3EE300FB1101 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96F668482D7D3F2B00FB1101 /* WebRTC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = WebRTC.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F668492D7D3F2B00FB1101 /* WebRTC.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,7 @@
 		96F6682E2D7D3EE200FB1101 /* rtc_ios */ = {
 			isa = PBXGroup;
 			children = (
+				96F6684A2D7D3F5100FB1101 /* fwk */,
 				96F6682F2D7D3EE200FB1101 /* AppDelegate.h */,
 				96F668302D7D3EE200FB1101 /* AppDelegate.m */,
 				96F668322D7D3EE200FB1101 /* SceneDelegate.h */,
@@ -74,6 +78,14 @@
 				96F668412D7D3EE300FB1101 /* main.m */,
 			);
 			path = rtc_ios;
+			sourceTree = "<group>";
+		};
+		96F6684A2D7D3F5100FB1101 /* fwk */ = {
+			isa = PBXGroup;
+			children = (
+				96F668482D7D3F2B00FB1101 /* WebRTC.xcframework */,
+			);
+			path = fwk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
